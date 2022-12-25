@@ -8,8 +8,8 @@
 
 .PostShare>img{
     border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
+    width: 3.25rem;
+    height: 3.25rem;
 }
 
 .PostShare>div{
@@ -22,15 +22,11 @@
 .PostShare>div>input{
     background-color: var(--inputColor);
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px; 
     font-size: 17px;
     border: none;
     outline: none;
 }
-
-
-
-
 
 .postOptions{
     display: flex;
