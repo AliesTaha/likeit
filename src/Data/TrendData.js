@@ -1,26 +1,26 @@
 export const TrendData= [
     {
-      name: "Minions",
+      name: "Several UFO's spotted",
       shares: 97,
     },
     {
-      name: "Avangers",
+      name: "First alien-human contact",
       shares: 80.5,
     },
     {
-      name: "Zainkeepscode",
+      name: "Peace treaty reached with aliens",
       shares: 75.5,
     },
     {
-      name: "Reactjs",
+      name: "Elon Musk admits to calling aliens to Earth",
       shares: 72,
     },
     {
-      name: "Elon Musk",
+      name: "Aliens take away human jobs",
       shares: 71.9,
     },
     {
-      name: "Need for Speed",
+      name: "Alien crypto currency breaks records",
       shares: 20,
     },
   ];
