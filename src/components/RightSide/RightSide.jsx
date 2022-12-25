@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./RightSide.css";
-import Home from "../../img/home.png";
-import Noti from "../../img/noti.png";
-import Comment from "../../img/comment.png";
+import Home from "../../img/home1.png";
+import Noti from "../../img/noti1.png";
+import Comment from "../../img/comm12.png";
 import { UilSetting } from "@iconscout/react-unicons";
 import TrendCard from "../TrendCard/TrendCard";
 import ShareModal from "../ShareModal/ShareModal";
