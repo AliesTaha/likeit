@@ -14,7 +14,7 @@ const ProfileCard = () => {
 
       <div className="ProfileName">
         <span>Ali Taha</span>
-        <span>Computer Engineering Student</span>
+        <span style={{color: 'var(--thecol)'}}>Computer Engineering Student</span>
       </div>
 
       <div className="followStatus">

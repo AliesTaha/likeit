@@ -1,29 +1,29 @@
 import postPic1 from '../img/purpalien.png'
 import postPic2 from '../img/stand5.png'
-import postPic3 from '../img/Sitting.JPG'
+import postPic3 from '../img/cool1.webp'
 
 
 export const PostsData = [
     {
         img: postPic1,
-        name: 'Tzuyu',
-        desc: "Happy New Year all friends! #2023",
-        likes: 2300,
-        liked: true
+        name: 'Cascan',
+        desc: "At The forest moon of Endor, pictures don't do it justice :)",
+        likes: 2357,
+        liked: false
     },
     {
         img: postPic2,
-        name: 'Maryam',
-        desc: "Party time :)",
-        likes: 2300,
-        liked: false
+        name: 'Cardassian',
+        desc: "Roads were made for journeys, not destinations",
+        likes: 1031,
+        liked: true
 
     },
     {
         img:postPic3,
-        name: "Salena Gomez",
-        desc: "At Archery Festival",
-        likes: 800,
+        name: "Carggites",
+        desc: "Per Aspera, Ad Astra O^O",
+        likes: 425,
         liked: false
     }
 ]

@@ -13,10 +13,10 @@ const PostShare = () => {
   const [image, setImage] = useState(null);
   const imageRef = useRef();
 
-  const onImageChange = (event) => {
+  const onImageChange = (event) => { 
     if (event.target.files && event.target.files[0]) {
       let img = event.target.files[0];
-      setImage({
+      setImage({ 
         image: URL.createObjectURL(img),
       });
     }
@@ -25,36 +25,41 @@ const PostShare = () => {
     <div className="PostShare">
       <img src={ProfileImage} alt="" />
       <div>
-        <input type="text" placeholder="What's happening" />
+        
+        <input className="thing" type="text" placeholder="What's on your mind?" />
+        
         <div className="postOptions">
-          <div className="option" style={{ color: "var(--photo)" }}
-          onClick={()=>imageRef.current.click()}
-          >
-            <UilScenery />
+        
+        <div className="option" style={{ color: "white " }} onClick={()=>imageRef.current.click()}>
+          
+          <UilScenery />
             Photo
           </div>
-          <div className="option" style={{ color: "var(--video)" }}>
+          
+          <div className="option" style={{ color: "white" }}>
             <UilPlayCircle />
             Video
           </div>{" "}
-          <div className="option" style={{ color: "var(--location)" }}>
+          
+          <div className="option" style={{ color: "white" }}>
             <UilLocationPoint />
             Location
           </div>{" "}
-          <div className="option" style={{ color: "var(--shedule)" }}>
+
+          <div className="option" style={{ color: "white" }}>
             <UilSchedule />
             Shedule
           </div>
+
           <button className="button ps-button">Share</button>
+
+
           <div style={{ display: "none" }}>
-            <input
-              type="file"
-              name="myImage"
-              ref={imageRef}
-              onChange={onImageChange}
-            />
+            <input type="file" name="myImage" ref={imageRef} onChange={onImageChange}/>
           </div>
         </div>
+
+
       {image && (
 
         <div className="previewImage">

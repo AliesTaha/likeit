@@ -11,7 +11,7 @@
 }
 
 .Search>input{
-    background-color: rgb(194, 229, 183);
+    background-color: grey;
     border:none;
     outline: none;
 }
@@ -29,6 +29,6 @@
 .s-icon:hover{
     cursor: pointer;
     color: green;
-    background-color: greenyellow;
+    background-color: grey;
     
 }

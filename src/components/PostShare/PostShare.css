@@ -4,6 +4,7 @@
     background-color: var(--cardColor);
     padding: 1rem;
     border-radius: 1rem;
+    color: white;
 }
 
 .PostShare>img{
@@ -14,6 +15,7 @@
 
 .PostShare>div{
     display: flex;
+    color: white;
     flex-direction: column;
     width: 90%;
     gap: 1rem;
@@ -21,6 +23,7 @@
 
 .PostShare>div>input{
     background-color: var(--inputColor);
+    color: white;
     border-radius: 10px;
     padding: 10px; 
     font-size: 17px;
@@ -68,10 +71,17 @@
 }
 
 .previewImage>img{
-    width: 100%;
+    width: fit;
     max-height: 20rem;
     object-fit: cover;
     border-radius: 0.5rem;
+} 
+
+span.PostShare{
+    color: white;
 }
 
 
+input::placeholder {
+  color: white;
+}
