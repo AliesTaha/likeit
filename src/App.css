@@ -13,6 +13,15 @@
   --location: #EF5757;
   --shedule: #E1AE4A;
   --thecol: #00ff40;
+  --clr-neon: rgb(0, 225, 255);
+  --clr-ne:rgb(0, 60, 255);
+  --clr-bg: hsl(323 21% 16%);
+  --body-font: 'Poppins', sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 .App{
@@ -31,4 +40,68 @@
   filter: blur(72px);
 
 
+}
+
+.button{
+  font: var(--body-font);
+  font-size: 1rem;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  background-color: var(--clr-ne);
+  border: var(--clr-neon) 0.125em solid;
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+  box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+  position: relative;
+}
+.button::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  background: var(white);
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  filter: blur(1em);
+  opacity: 0;
+}
+.button::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 2em 0.5em var(--clr-neon);
+  opacity: 0;
+  background-color: var(--clr-neon);
+  z-index: -1;
+  transition: opacity 0ms linear;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--clr-bg);
+  text-shadow: none;
+  background-color: gold;
+}
+
+.button:hover::before,
+.button:focus::before {
+  opacity: 1;
+}
+.button:hover::after,
+.button:focus::after {
+  opacity: 1;
+}
+
+::-webkit-scrollbar{
+  display: none;
 }

@@ -10,7 +10,7 @@ const LogoSearch = () => {
         <div className="Search">
         <input type="text" placeholder='#Lookforaliens' />
         <div className="s-icon">
-                <UilSearch/>
+                <UilSearch color="#000000"/>
             </div>
         </div>
     </div>
