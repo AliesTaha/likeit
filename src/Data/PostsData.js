@@ -1,6 +1,6 @@
-import postPic1 from '../img/purpalien.png'
-import postPic2 from '../img/stand5.png'
-import postPic3 from '../img/cool1.webp'
+import postPic1 from '../img/net2.jpg'
+import postPic2 from '../img/asp.jpg'
+import postPic3 from '../img/beaut.webp'
 
 
 export const PostsData = [
