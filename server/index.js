@@ -41,4 +41,4 @@ mongoose
   app.use('/user', UserRoute)
   app.use('/post', PostRoute)
 
-app.use('/upload', Up  loadRoute)
+app.use('/upload', UploadRoute)

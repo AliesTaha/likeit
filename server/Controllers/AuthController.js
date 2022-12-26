@@ -54,7 +54,7 @@ export const loginUser = async (req, res) => {
                 res.status(200).json({user, token})
             }
           }
-        else{
+        else{ 
             res.status(404).json("User does not exist :(, check your username :)")
         }
     } catch (error) {

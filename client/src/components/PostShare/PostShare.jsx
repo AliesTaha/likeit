@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import ProfileImage from "../../img/Standing.JPG"
 import "./PostShare.css";
 import { UilScenery } from "@iconscout/react-unicons";
 import { UilPlayCircle } from "@iconscout/react-unicons";
@@ -8,11 +9,13 @@ import { UilTimes } from "@iconscout/react-unicons";
 import { useDispatch, useSelector } from "react-redux";
 import { uploadImage, uploadPost } from "../../actions/UploadAction";
 
-const PostShare = () => {
+const PostShare = () => {  
+  const [image, setImage] = useState(null);
+  const imageRef = useRef();
   const {user} = useSelector((state) => state.authReducer.authData);
   const loading = useSelector((state) => state.postReducer.uploading);
-  const [image, setImage] = useState(null);
-  const dispatch = useDispatch();
+ 
+  const dispatch = useDispatch()
   const desc = useRef();
   const serverPublic = process.env.REACT_APP_PUBLIC_FOLDER;
 
@@ -24,10 +27,9 @@ const PostShare = () => {
     }
   };
 
-  const imageRef = useRef();
 
   // handle post upload
-  const handleUpload = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     //post data
@@ -64,7 +66,7 @@ const PostShare = () => {
     }
 
     //Dispatch action for new post
-    dispatch(uploadPost(newPost));
+    dispatch(uploadPost(newPost))
     resetShare();
 
   };
@@ -116,10 +118,10 @@ const PostShare = () => {
           </div>
           <button
             className="button ps-button"
-            onClick={handleUpload}
+            onClick={handleSubmit}
             disabled={loading}
           >
-            {loading ? "uploading" : "Share"}
+            {loading ? "Uploading..." : "Share"}
           </button>
 
           <div style={{ display: "none" }}>
