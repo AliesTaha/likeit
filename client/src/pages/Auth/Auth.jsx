@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import "./Auth.css";
 import Logo from "../../img/aliencomment.webp";
+import { logIn, signUp } from "../../actions/AuthActions.js";
 import {useDispatch} from 'react-redux'
 
 const Auth = () => {
