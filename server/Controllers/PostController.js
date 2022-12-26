@@ -2,13 +2,12 @@ import PostModel from "../Models/postModel.js";
 import mongoose from "mongoose";
 import UserModel from "../Models/userModel.js";
 
-// Creat new Post
 export const createPost = async (req, res) => {
   const newPost = new PostModel(req.body);
 
   try {
     await newPost.save();
-    res.status(200).json("Post created!");
+    res.status(200).json("You made a new post!");
   } catch (error) {
     res.status(500).json(error);
   }
@@ -36,9 +35,9 @@ export const updatePost = async (req, res) => {
     const post = await PostModel.findById(postId);
     if (post.userId === userId) {
       await post.updateOne({ $set: req.body });
-      res.status(200).json("Post Updated");
+      res.status(200).json("Post Updated :)");
     } else {
-      res.status(403).json("Action forbidden");
+      res.status(403).json("Action forbidden...not your post :(");
     }
   } catch (error) {
     res.status(500).json(error);
@@ -54,9 +53,9 @@ export const deletePost = async (req, res) => {
     const post = await PostModel.findById(id);
     if (post.userId === userId) {
       await post.deleteOne();
-      res.status(200).json("POst deleted successfully");
+      res.status(200).json("Post deleted successfully...why though?");
     } else {
-      res.status(403).json("Action forbidden");
+      res.status(403).json("Action forbidden...not your post o-O");
     }
   } catch (error) {
     res.status(500).json(error);
@@ -71,9 +70,11 @@ export const likePost = async (req, res) => {
   try {
     const post = await PostModel.findById(id);
     if (!post.likes.includes(userId)) {
+      //Put the liker in the array of likes
       await post.updateOne({ $push: { likes: userId } });
       res.status(200).json("Post liked");
     } else {
+      //Remove the liker from the array of likes
       await post.updateOne({ $pull: { likes: userId } });
       res.status(200).json("Post Unliked");
     }
