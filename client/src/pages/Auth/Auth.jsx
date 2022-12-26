@@ -85,7 +85,7 @@ const Auth = () => {
             name="username"
             placeholder="Username"
             onChange={handleChange}
-            value={data.text}
+            value={data.username}
 
           />
         </div>

@@ -37,12 +37,6 @@ export const loginUser = async (req, res) => {
 
     try {
         const user = await UserModel.findOne({username: username})
-
-        if(oldUser){
-          return res.status(400).json({message:"username is already registered here"})
-        }
-
-
         if(user)
         {
             const valid = await bcrypt.compare(password, user.password)
