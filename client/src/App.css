@@ -85,6 +85,10 @@
   z-index: -1;
   transition: opacity 0ms linear;
 }
+.button:disabled{
+  background: silver;
+  pointer-events: none;
+}
 
 .button:hover,
 .button:focus {
@@ -105,3 +109,4 @@
 ::-webkit-scrollbar{
   display: none;
 }
+

@@ -2,12 +2,14 @@ import React, {useState} from "react";
 import "./Auth.css";
 import Logo from "../../img/aliencomment.webp";
 import { logIn, signUp } from "../../actions/AuthActions.js";
-import {useDispatch} from 'react-redux'
+import {useDispatch, useSelector} from 'react-redux';
 
 const Auth = () => {
+  const loading = useSelector((state)=>state.authReducer.loading)
   const[isSignUp, setIsSignUp]=useState(true);
   const dispatch = useDispatch()
-  const[data, setData]=useState({firstname: "", lastname:"", password:"", confirmpass:"", username:"",});
+  console.log(loading)
+  const[data, setData]=useState({firstname: "", lastname:"", username:"", password:"", confirmpass:"",});
 
   //function to handle all these inputs, takes even as paramaeter
   const [confirmPass, setConfirmPass] = useState(true);
@@ -128,8 +130,8 @@ const Auth = () => {
               </span>
               
         </div>
-        <button className="button infoButton" type="submit">
-          {isSignUp? "Sign Up" : "Login"}
+        <button className="button infoButton" type="submit" disabled={loading}>
+          {loading? "Loading..." :isSignUp? "Sign Up" : "Login"}
           </button>
       </form>
     </div>
