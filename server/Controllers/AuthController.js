@@ -14,15 +14,17 @@ export const registerUser = async (req, res) => {
     // addition new
     const oldUser = await UserModel.findOne({ username });
 
-    if (oldUser)
+    if (oldUser){
       return res.status(400).json({ message: "User already exists" });
+    }
 
     // changed
     const user = await newUser.save();
+    
     const token = jwt.sign(
       { username: user.username, id: user._id },
       process.env.JWT_KEY,
-      { expiresIn: "1h" }
+      { expiresIn: '1h' }
     );
     res.status(200).json({ user, token });
   } catch (error) {
@@ -41,9 +43,17 @@ export const loginUser = async (req, res) => {
         {
             const valid = await bcrypt.compare(password, user.password)
 
-
-            valid? res.status(200).json(user): res.status(400).json("Wrong Password :( You're not a heckr are you? O-o")
-        }
+            if(!valid){
+              res.status(400).json("Wrong password :(")
+            }
+            else{
+              const token = jwt.sign(
+                { username: user.username, id: user._id },
+                process.env.JWT_KEY,
+                { expiresIn: '1h' })
+                res.status(200).json({user, token})
+            }
+          }
         else{
             res.status(404).json("User does not exist :(, check your username :)")
         }
