@@ -92,3 +92,7 @@
       align-items: center;
       justify-content: center;
   }
+
+  .infoInput{
+    color: wheat;
+  }
