@@ -1,10 +1,14 @@
 import * as UploadApi from "../api/UploadRequest";
 
+
+//Export data
 export const uploadImage = (data) => async (dispatch) => {
   try {
-    console.log("Image upload Action start ho gya hy")
+    //upload api carries data of image
+    console.log("Image upload action is starting")
     await UploadApi.uploadImage(data);
   } catch (error) {
+    //In case of any error
     console.log(error);
   }
 };
