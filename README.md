@@ -1,4 +1,4 @@
-# Getting Started with LikeIt App
+# LikeIt
 
 ![image](https://user-images.githubusercontent.com/103478551/209656711-f86178bf-213e-4c8b-b6b4-f7f06050069d.png)
 
