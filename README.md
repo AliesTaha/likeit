@@ -1,7 +1,7 @@
 # LikeIt
 
 **Front End**
-!<img src="https://user-images.githubusercontent.com/103478551/209656711-f86178bf-213e-4c8b-b6b4-f7f06050069d.png" width="20" height="10")
+<img src="https://user-images.githubusercontent.com/103478551/209656711-f86178bf-213e-4c8b-b6b4-f7f06050069d.png" width="20" height="10">
 
 **Back End**
 ![image](https://user-images.githubusercontent.com/103478551/209657629-59e84dc9-49a7-4e32-95b9-e8a63a43c260.png)
