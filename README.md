@@ -5,8 +5,11 @@
 ## Table of contents
 
 * [Overview](#overview)
-* [ThePhish example usage](#technologies)
-* [Implementation](#languages)
+* [Technologies used](#technologies)
+* [Languages used](#languages)
+* [Supported functionality](#functionality)
+  + [Install it using Docker and Docker Compose](#install-it-using-docker-and-docker-compose)
+  + [Install it from scratch](#install-it-from-scratch)
 * [Installation](#installation)
   + [Install it using Docker and Docker Compose](#install-it-using-docker-and-docker-compose)
   + [Install it from scratch](#install-it-from-scratch)
@@ -40,6 +43,9 @@ LikeIt is a social media application that combines features from facebook, insta
 <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=whit"/>
 <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"/>
 </p>
+
+## Functionality
+
 
 <img src="https://media.giphy.com/media/m9a16KI0ZZBjiDqf4t/giphy.gif" width="700" height="530">
 
