@@ -80,17 +80,9 @@ Following a user and unfollowing them is similar to liking the post. Clicking th
 <img src="https://media.giphy.com/media/fq8JaLSUalKxwwKbAt/giphy.gif" width="700" height="530">
 At the click of a button, the user is able to access their status. They can change the fields, their information, and the respective picture, for background and profile. 
 
-#### Change Profile/Background Picture
-<img src="https://media.giphy.com/media/m9a16KI0ZZBjiDqf4t/giphy.gif" width="700" height="530">
-
-
-
-
-<img src="https://media.giphy.com/media/gdOOhBr4uvKKr2NjL7/giphy.gif" width="700" height="530">
-
-
+#### Change Profile/Background Picture]
 <img src="https://media.giphy.com/media/74f209Zeae9b08qCag/giphy.gif" width="700" height="530">
-
+This is performed in the same way as above
 
 
 
