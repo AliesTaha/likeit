@@ -1,11 +1,9 @@
 # LikeIt
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=I'm+Ali+Taha;)](https://git.io/typing-svg)
-
-
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Front+End;)](https://git.io/typing-svg)
 <img src="https://user-images.githubusercontent.com/103478551/209656711-f86178bf-213e-4c8b-b6b4-f7f06050069d.png">
 
-<h3>Back End</h3>
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Back+End;)](https://git.io/typing-svg)
 <img src="https://user-images.githubusercontent.com/103478551/209657629-59e84dc9-49a7-4e32-95b9-e8a63a43c260.png">
 
 LikeIt is a social media application that combines features from facebook, instagram, and twitter. The web application deals with client and server side. 
