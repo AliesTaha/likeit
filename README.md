@@ -1,7 +1,7 @@
 # Getting Started with likeit App
 
 
-![](https://media.giphy.com/media/m9a16KI0ZZBjiDqf4t/giphy.gif)
+<img src="https://media.giphy.com/media/m9a16KI0ZZBjiDqf4t/giphy.gif" width="400" height="300">
 
 Download the folder
 Open the terminal, split it 
