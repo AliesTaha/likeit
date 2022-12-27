@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Getting Started with likeit App
+
+
+![](https://media.giphy.com/media/m9a16KI0ZZBjiDqf4t/giphy.gif)
 
 Download the folder
 Open the terminal, split it 
