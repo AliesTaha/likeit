@@ -2,7 +2,6 @@
 
 ![image](https://user-images.githubusercontent.com/103478551/209656711-f86178bf-213e-4c8b-b6b4-f7f06050069d.png)
 
-
 <img src="https://media.giphy.com/media/m9a16KI0ZZBjiDqf4t/giphy.gif" width="700" height="530">
 
 <img src="https://media.giphy.com/media/HPUz3qclIElvlhsMyf/giphy.gif" width="700" height="530">
