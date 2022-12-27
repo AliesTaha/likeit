@@ -5,6 +5,7 @@
 LikeIt is a social media application that combines features from facebook, instagram, and twitter. The web application deals with client and server side, and uses big stack approach. The global state is managed using redux libray, and uses React Router V6.
 
 The technologies used to create the app are:
+
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Front+End;)](https://git.io/typing-svg)
 <p align="center">
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> 
