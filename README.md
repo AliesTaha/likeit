@@ -2,7 +2,13 @@
 
 <img src="https://user-images.githubusercontent.com/103478551/209656711-f86178bf-213e-4c8b-b6b4-f7f06050069d.png">
 
-LikeIt is a social media application that combines features from facebook, instagram, and twitter. The web application deals with client and server side, and uses big stack approach. The global state is managed using redux libray, and uses React Router V6. The app also implements authentication for users, which is implemented using JWT authentication. 
+LikeIt is a social media application that combines features from facebook, instagram, and twitter. The web application deals with client and server side, and uses big stack approach. The global state is managed using redux libray, and uses React Router V6. The app also implements authentication for users, which is implemented using JWT authentication. The website allows the following features for users:
+##### Features 
+[Headers](#headers)  
+[Emphasis](#emphasis)  
+...snip...    
+<a name="headers"/>
+## Headers
 
 The technologies used to create the app are:
 
