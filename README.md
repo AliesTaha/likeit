@@ -79,12 +79,11 @@ LikeIt is a social media application that combines features from facebook, insta
 <img src="https://media.giphy.com/media/LdoUkF2twXT4gkoihl/giphy.gif" width="700" height="530">
 
 
-
+## Backend MongoDB
 <img src="https://user-images.githubusercontent.com/103478551/209657629-59e84dc9-49a7-4e32-95b9-e8a63a43c260.png">
 
-##Backend MongoDB
 
-##Installation
+## Installation
 - Download the files, then CD into the /client and run the following commands
 ```
 cd client
@@ -97,9 +96,11 @@ yarn start
 ```
 -Simultaneously open a new terminal, CD into the /server and run the following 
 ```
-cd client
-npm i redux red ux-thunk react-redux
-npm i axios
+npm init
+npm i express
+npm i mongoose
+npm i body-parser
+npm i nodemon
 yarn 
 yarn add react-roucter-dom
 npm start
