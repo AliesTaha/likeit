@@ -55,7 +55,7 @@ LikeIt is a social media application that combines features from facebook, insta
 ## Sign Up
 ## Log In/Log Out
 ## Scroll Through Feed
-# Like/Unlike a Post
+### Like/Unlike a Post
 ## Create a post
 ## Follow/Unfollow a User
 ## Add Profile Status
