@@ -52,7 +52,7 @@ LikeIt is a social media application that combines features from facebook, insta
 ## Functionality
 
 #### Sign Up
-<img src="https://media.giphy.com/media/elSbb0iD5dSVcfh5Nz/giphy.gif" width="700" height="530">
+<img src="https://media.giphy.com/media/elSbb0iD5dSVcfh5Nz/giphy.gif" width="900" height="730">
 Signing up adds the new user to the database, and gives them the default profile and background image. It checks to see if passwords match, and checks if the user already exists in the database before doing so. 
 
 #### Log In or Out
