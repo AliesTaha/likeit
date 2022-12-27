@@ -11,7 +11,7 @@
   + [Sign Up](#sign-up)
   + [Log In or Out](#log-in-or-out)
   + [Scroll Through Feed](#scroll-through-feed)
-  + [Create a post](#create-a-post)
+  + [Create a Post](#create-a-post)
   + [Like or Unlike a Post](#like-or-unlike-a-post)
   + [Follow or Unfollow a User](#follow-or-unfollow-a-user)
   + [Add Profile Status](#add-profile-status)
@@ -55,22 +55,25 @@ LikeIt is a social media application that combines features from facebook, insta
 #### Log In or Out
 #### Scroll Through Feed
 
-#### Create a post
+#### Create a Post
 <img src="https://media.giphy.com/media/HPUz3qclIElvlhsMyf/giphy.gif" width="700" height="530">
-One can create a post that 
+One can create a post that includes a text, an image, or both. The functionality is supported for any option, and each post has its own ID in the backend, and is timestamped so that they are shown in chronological order.
 
 #### Like or Unlike a Post
+<img src="https://media.giphy.com/media/wpVh4p82R9T7XxPsrd/giphy.gif" width="700" height="530">
+Liking a post is simply done through pressing the like button, which increments the post's number of likes by 1. Clicking the button again removes the like from the post
 
 #### Follow or Unfollow a User
+<img src="https://media.giphy.com/media/ZFBd9pxKvjqMK1Aqgk/giphy.gif" width="700" height="530">
+Following a user and unfollowing them is similar to liking the post. Clicking the follow button allows the user to be added to the userBeingFollowed's array of followers, and adds the userBeingFollowed to the user's array of followings. Pressing the button again reverses this process. 
+
 #### Add Profile Status
 #### Change Profile/Background Picture
 
 <img src="https://media.giphy.com/media/m9a16KI0ZZBjiDqf4t/giphy.gif" width="700" height="530">
 
 
-<img src="https://media.giphy.com/media/wpVh4p82R9T7XxPsrd/giphy.gif" width="700" height="530">
 
-<img src="https://media.giphy.com/media/ZFBd9pxKvjqMK1Aqgk/giphy.gif" width="700" height="530">
 
 <img src="https://media.giphy.com/media/gdOOhBr4uvKKr2NjL7/giphy.gif" width="700" height="530">
 
