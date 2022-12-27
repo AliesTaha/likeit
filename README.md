@@ -8,8 +8,14 @@
 * [Technologies used](#technologies)
 * [Languages used](#languages)
 * [Supported functionality](#functionality)
-  + [Install it using Docker and Docker Compose](#install-it-using-docker-and-docker-compose)
-  + [Install it from scratch](#install-it-from-scratch)
+  + [Sign Up](#signp)
+  + [Log In/Log Out](#login)
+  + [Scroll Through Feed](#scr)
+  + [Like/Unlike a Post](#lik)
+  + [Create a post](#create)
+  + [Follow/Unfollow a User](#follw)
+  + [Add Profile Status](#profstats)
+  + [Change Profile/Background Picture](#profpic)
 * [Installation](#installation)
   + [Install it using Docker and Docker Compose](#install-it-using-docker-and-docker-compose)
   + [Install it from scratch](#install-it-from-scratch)
@@ -46,6 +52,14 @@ LikeIt is a social media application that combines features from facebook, insta
 
 ## Functionality
 
+##signp
+##login
+##scr
+##lik
+##create
+##follw
+##profstats
+##profpic
 
 <img src="https://media.giphy.com/media/m9a16KI0ZZBjiDqf4t/giphy.gif" width="700" height="530">
 
