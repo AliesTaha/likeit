@@ -16,9 +16,8 @@
   + [Follow or Unfollow a User](#follow-or-unfollow-a-user)
   + [Add Profile Status](#add-profile-status)
   + [Change Profile or Background Picture](#change-profile-or-background-picture)
+* [Backend MongoDB](#backend-mongodb)
 * [Installation](#installation)
-  + [Install it using Docker and Docker Compose](#install-it-using-docker-and-docker-compose)
-  + [Install it from scratch](#install-it-from-scratch)
 * [Configure the analyzers](#configure-the-analyzers)
   + [Configure the levels of the analyzers](#configure-the-levels-of-the-analyzers)
   + [Tested analyzers](#tested-analyzers)
@@ -83,24 +82,35 @@ LikeIt is a social media application that combines features from facebook, insta
 
 <img src="https://user-images.githubusercontent.com/103478551/209657629-59e84dc9-49a7-4e32-95b9-e8a63a43c260.png">
 
+##Backend MongoDB
 
-Download the folder
-Open the terminal, split it 
-Cd into server, and in the other cd into client
-For the server: download the following packages:
+##Installation
+- Download the files, then CD into the /client and run the following commands
+```
+cd client
+npm i redux red ux-thunk react-redux
+npm i axios
+yarn 
+yarn add react-roucter-dom
+yarn start
+)
+```
+-Simultaneously open a new terminal, CD into the /server and run the following 
+```
+cd client
+npm i redux red ux-thunk react-redux
+npm i axios
+yarn 
+yarn add react-roucter-dom
+npm start
+)
+```
 
-then type npm start into the terminal
 
-for the client, download these packages: 
-
-then type yarn start into the terminal
-
-The backend is connected to mongo db cloud
-the server runs in port 8080
-the client runs in port 3000
-make sure these are free before downloading the project
-
-enjoy:)
+-The backend is connected to mongo db cloud
+-The server runs in port 8080
+-The client runs in port 3000
+-Make sure these are free before downloading the project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -168,5 +178,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
