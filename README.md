@@ -1,6 +1,7 @@
 # LikeIt
 
 <h3>Front End</h3>
+<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">
 <img src="https://user-images.githubusercontent.com/103478551/209656711-f86178bf-213e-4c8b-b6b4-f7f06050069d.png">
 
 <h3>Back End</h3>
