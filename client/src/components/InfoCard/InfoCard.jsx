@@ -21,7 +21,7 @@ const InfoCard = () => {
 
 
 
-  //This is the logout function
+  //This is the logout function 
   const handleLogOut = ()=> {
     dispatch(logout())
   }
