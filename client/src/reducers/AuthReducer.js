@@ -25,6 +25,8 @@ const authReducer = (state = { authData: null, loading: false, error: false, upd
 
 
 
+
+      //This is starting the logout function
     case "LOG_OUT":
       localStorage.clear();
       return {...state,  authData: null, loading: false, error: false, updateLoading: false }

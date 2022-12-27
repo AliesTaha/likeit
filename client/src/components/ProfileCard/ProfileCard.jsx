@@ -5,10 +5,10 @@ import Profile from "../../img/Sitting.JPG";
 import {Link} from 'react-router-dom'
 import "./ProfileCard.css";
 
-const ProfileCard = () => {
+const ProfileCard = ({location}) => {
   const {user} = useSelector((state)=>state.authReducer.authData)
   const serverPublic = process.env.REACT_APP_PUBLIC_FOLDER;
-  const ProfilePage = false;
+  const posts= useSelector((state)=>state.postReducer.posts)
 
   return (
     <div className="ProfileCard">
@@ -36,11 +36,11 @@ const ProfileCard = () => {
             <span>Following</span>
           </div>
 
-          {ProfilePage && (
+          {location=== 'profilePage' && (
             <>
               <div className="vl"></div>
               <div className="follow">
-                <span>3</span>
+                <span>{posts.filter((post)=>post.userId===user._id).length}</span>
                 <span>Posts</span>
               </div>
             </>
@@ -48,10 +48,10 @@ const ProfileCard = () => {
         </div>
         <hr />
       </div>
-      {ProfilePage ? "" : <span>
+      {location=== 'profilePage' ? ("") : (<span>
         <Link style={{color:"wheat", fontSize:'18px', textDecoration: "none"}} to ={`/profile/${user._id}`}>
         My profile
-        </Link></span>
+        </Link></span>)
         }
     </div>
   );

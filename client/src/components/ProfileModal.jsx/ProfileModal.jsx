@@ -18,8 +18,8 @@ function ProfileModal({ modalOpened, setModalOpened }) {
       opened={modalOpened}
       onClose={() => setModalOpened(false)}
     >
-      <form className="infoForm">
-        <h3>Your info</h3>
+      <form style={{backgroundColor: "#340293"}} className="infoForm">
+        <h3 style={{color: 'gold'}}>Your information</h3>
 
         <div>
           <input
@@ -72,9 +72,9 @@ function ProfileModal({ modalOpened, setModalOpened }) {
         </div>
 
 
-        <div>
+        <div style={{color: 'wheat'}}>
             Profile Image 
-            <input type="file" style={{color:'black'}} name='profileImg'/>
+            <input type="file" style={{color:'wheat'}} name='profileImg'/>
             Cover Image
             <input type="file" name="coverImg" />
         </div>
