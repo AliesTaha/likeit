@@ -13,6 +13,8 @@ export const updateUser=(id, formData)=> async(dispatch)=> {
 }
 
 
+
+//This function controls follow
 export const followUser = (id, data)=> async(dispatch)=> {
     dispatch({type: "FOLLOW_USER", data: id})
     UserApi.followUser(id, data)
