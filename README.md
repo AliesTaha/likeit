@@ -2,37 +2,24 @@
 
 <img src="https://user-images.githubusercontent.com/103478551/209656711-f86178bf-213e-4c8b-b6b4-f7f06050069d.png">
 
-LikeIt is a social media application that combines features from facebook, instagram, and twitter. The web application deals with client and server side, and uses big stack approach. The global state is managed using redux libray, and uses React Router V6. The app also implements authentication for users, which is implemented using JWT authentication. The website allows the following features for users:
 ## Table of contents
 
 * [Overview](#overview)
-* [ThePhish example usage](#thephish-example-usage)
-  + [A user sends an email to ThePhish](#a-user-sends-an-email-to-thephish)
-  + [The analyst analyzes the email](#the-analyst-analyzes-the-email)
-* [Implementation](#implementation)
+* [ThePhish example usage](#technologies)
+* [Implementation](#languages)
 * [Installation](#installation)
   + [Install it using Docker and Docker Compose](#install-it-using-docker-and-docker-compose)
   + [Install it from scratch](#install-it-from-scratch)
 * [Configure the analyzers](#configure-the-analyzers)
   + [Configure the levels of the analyzers](#configure-the-levels-of-the-analyzers)
   + [Tested analyzers](#tested-analyzers)
-  + [Enable the *MISP* analyzer](#enable-the-misp-analyzer)
-  + [Enable the *Yara* analyzer](#enable-the-yara-analyzer)
-* [Enable the *Mailer* responder](#enable-the-mailer-responder)
-* [Use the whitelist](#use-the-whitelist)
-* [Contribution to TheHive4py](#contribution-to-thehive4py)
-* [License](#license)
-* [Academic publications](#academic-publications)
-* [GitHub repositories mentioning ThePhish](#github-repositories-mentioning-thephish)
-* [Who talks about ThePhish](#who-talks-about-thephish)
-* [Credits](#credits)
-
 
 ## Overview
 
+LikeIt is a social media application that combines features from facebook, instagram, and twitter. The web application deals with client and server side, and uses big stack approach. The global state is managed using redux libray, and uses React Router V6. The app also implements authentication for users, which is implemented using JWT authentication. The website allows the users to create an account, sign up / login, create a profile picture and background picture. It also allows users to follow and unfollow each other, post pictures, and populates their timeline with posts from the users they follow, in chronological order. They are also able to edit a status on thier profile, like other posts, and automatically calculates their number of followers/following.
 
-The technologies used to create the app are:
 
+## Technologies
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Front+End;)](https://git.io/typing-svg)
 <p align="center">
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> 
@@ -46,6 +33,7 @@ The technologies used to create the app are:
 <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge"/>
 </p>
 
+## Languages
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Languages;)](https://git.io/typing-svg)
 <p align="center">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> 
