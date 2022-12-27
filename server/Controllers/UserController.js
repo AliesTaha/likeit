@@ -76,9 +76,9 @@ if (id === _id) {
 export const deleteUser = async (req, res) => {
   const id = req.params.id;
 
-  const { currentUserId, currentUserAdminStatus } = req.body;
+  const { _id, currentUserAdminStatus } = req.body;
 
-  if (currentUserId === id || currentUserAdminStatus) {
+  if (_id === id || currentUserAdminStatus) {
     try {
       await UserModel.findByIdAndDelete(id);
       res.status(200).json("Has been deleted :(...*sad noises*");
@@ -94,21 +94,21 @@ export const deleteUser = async (req, res) => {
 export const followUser = async (req, res) => {
   const id = req.params.id;
 
-  const { currentUserId } = req.body;
+  const { _id } = req.body;
 
-  if (currentUserId === id) {
+  if (_id === id) {
     res.status(403).json("Action forbidden: Can't follow yourself :( kinda sad you tried...");
   } else {
     try {
       const followUser = await UserModel.findById(id);
-      const followingUser = await UserModel.findById(currentUserId);
+      const followingUser = await UserModel.findById(_id);
 
-      if (followUser.followers.includes(currentUserId)) {
+      if (followUser.followers.includes(_id)) {
         res.status(403).json("Can't follow someone twice ;)");
       } else {
         //Push the user following inside followers array of followed user
         //Basically updating followers array of person being followed
-        await followUser.updateOne({ $push: { followers: currentUserId } }); 
+        await followUser.updateOne({ $push: { followers: _id } }); 
         
         //Update following array of person following
         await followingUser.updateOne({ $push: { following: id } });
@@ -125,19 +125,19 @@ export const followUser = async (req, res) => {
 export const UnFollowUser = async (req, res) => {
   const id = req.params.id;
 
-  const { currentUserId } = req.body;
+  const { _id } = req.body;
 
-  if (currentUserId === id) {
+  if (_id === id) {
     res.status(403).json("Action Forbidden...love yourself man, can't unfollow yourself.");
   } else {
     try {
       const followUser = await UserModel.findById(id);
-      const followingUser = await UserModel.findById(currentUserId);
+      const followingUser = await UserModel.findById(_id);
 
-      if (followUser.followers.includes(currentUserId)) {
+      if (followUser.followers.includes(_id)) {
 
         //Remove the unfollower from the followers list of the unfollowed
-        await followUser.updateOne({ $pull: { followers: currentUserId } });
+        await followUser.updateOne({ $pull: { followers: _id } });
 
         //Remove the unfollowed from the following array of the unfollower
         await followingUser.updateOne({ $pull: { following: id } });

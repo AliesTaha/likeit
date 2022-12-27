@@ -36,9 +36,11 @@ const authReducer = (state = { authData: null, loading: false, error: false, upd
       return {...state,  authData: null, loading: false, error: false, updateLoading: false }
 
 
+      //Returns array of following
     case "FOLLOW_USER":
       return {...state, authData: {...state.authData, user: {...state.authData.user, following: [...state.authData.user.following, action.data]} }}
     
+      //Authentication data manipulates user, destructures array, manipulates following, then adds action.da 
     case "UNFOLLOW_USER":
       return {...state, authData: {...state.authData, user: {...state.authData.user, following: [...state.authData.user.following.filter((personId)=>personId!==action.data)]} }}
 

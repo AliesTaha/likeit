@@ -8,15 +8,21 @@ const User = ({ person }) => {
   const { user } = useSelector((state) => state.authReducer.authData);
   const dispatch = useDispatch()
   
+
+  //This is for following
   const [following, setFollowing] = useState(
     person.followers.includes(user._id)
   );
+  
+  //This button handles follows
   const handleFollow = () => {
     following
       ? dispatch(unfollowUser(person._id, user))
       : dispatch(followUser(person._id, user));
     setFollowing((prev) => !prev);
   };
+
+  //This returns
   return (
     <div className="follower">
       <div>
@@ -38,6 +44,7 @@ const User = ({ person }) => {
       <button
         className={
           
+          //If following is true, unfollow, if unfollowing is true, follow
           following ? "button fc-button UnfollowButton" : "button fc-button"
         
         } onClick={handleFollow}>
