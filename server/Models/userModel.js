@@ -28,6 +28,7 @@ const UserSchema = mongoose.Schema(
         worksIn: String,
         nativeLanguage: String,
         studiesAt: String,
+        country: String, 
         followers: [] ,
         following: []
     },
