@@ -52,8 +52,18 @@ LikeIt is a social media application that combines features from facebook, insta
 ## Functionality
 
 #### Sign Up
+<img src="https://media.giphy.com/media/elSbb0iD5dSVcfh5Nz/giphy.gif" width="700" height="530">
+Signing up adds the new user to the database, and gives them the default profile and background image. It checks to see if passwords match, and checks if the user already exists in the database before doing so. 
+
 #### Log In or Out
+<img src="https://media.giphy.com/media/LdoUkF2twXT4gkoihl/giphy.gif" width="700" height="530">
+Logging in simply checks if the user exists in the databse. If so, it checks if the passwords match. If so, then they can move on their own home page. 
+
+Logging out simply clears the memory of the browser such that the user has to log back in, either with the same credentials or a different one. 
+
 #### Scroll Through Feed
+<img src="https://media.giphy.com/media/ZFBd9pxKvjqMK1Aqgk/giphy.gif" width="700" height="530">
+The feed is created by appending all the posts of the users who are followed in the database, then ordering the posts using the timestamps so that the most recent post in on top. 
 
 #### Create a Post
 <img src="https://media.giphy.com/media/HPUz3qclIElvlhsMyf/giphy.gif" width="700" height="530">
@@ -64,8 +74,7 @@ One can create a post that includes a text, an image, or both. The functionality
 Liking a post is simply done through pressing the like button, which increments the post's number of likes by 1. Clicking the button again removes the like from the post
 
 #### Follow or Unfollow a User
-<img src="https://media.giphy.com/media/ZFBd9pxKvjqMK1Aqgk/giphy.gif" width="700" height="530">
-Following a user and unfollowing them is similar to liking the post. Clicking the follow button allows the user to be added to the userBeingFollowed's array of followers, and adds the userBeingFollowed to the user's array of followings. Pressing the button again reverses this process. 
+Following a user and unfollowing them is similar to liking the post. Clicking the follow button allows the user to be added to the userBeingFollowed's array of followers, and adds the userBeingFollowed to the user's array of followings. Pressing the button again reverses this process. This is shown above. 
 
 #### Add Profile Status
 #### Change Profile/Background Picture
@@ -81,9 +90,7 @@ Following a user and unfollowing them is similar to liking the post. Clicking th
 
 <img src="https://media.giphy.com/media/74f209Zeae9b08qCag/giphy.gif" width="700" height="530">
 
-<img src="https://media.giphy.com/media/elSbb0iD5dSVcfh5Nz/giphy.gif" width="700" height="530">
 
-<img src="https://media.giphy.com/media/LdoUkF2twXT4gkoihl/giphy.gif" width="700" height="530">
 
 
 ## Backend MongoDB
