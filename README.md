@@ -19,7 +19,7 @@ The technologies used to create the app are:
 <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge"/>
 </p>
 
-And the languages used are:
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Languages;)](https://git.io/typing-svg)
 <p align="center">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> 
 <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=whit"/>
