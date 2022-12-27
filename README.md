@@ -3,25 +3,25 @@
 
 <img src="https://media.giphy.com/media/m9a16KI0ZZBjiDqf4t/giphy.gif" width="700" height="530">
 
-<img src="https://media.giphy.com/media/HPUz3qclIElvlhsMyf/giphy.gif" width="600" height="400">
+<img src="https://media.giphy.com/media/HPUz3qclIElvlhsMyf/giphy.gif" width="700" height="530">
 
-<img src="" width="600" height="400">
-
-
-<img src="" width="600" height="400">
+<img src="" width="700" height="530">
 
 
-<img src="" width="600" height="400">
+<img src="" width="700" height="530">
 
-<img src="" width="600" height="400">
 
-<img src="" width="600" height="400">
-<img src="" width="600" height="400">
+<img src="" width="700" height="530">
 
-<img src="" width="600" height="400">
-<img src="" width="600" height="400">
-<img src="" width="600" height="400">
-<img src="" width="600" height="400">
+<img src="" width="700" height="530">
+
+<img src="" width="700" height="530">
+<img src="" width="700" height="530">
+
+<img src="" width="700" height="530">
+<img src="" width="700" height="530">
+<img src="" width="700" height="530">
+<img src="" width="700" height="530">
 
 
 
