@@ -2,7 +2,7 @@
 
 
 <img src="https://media.giphy.com/media/m9a16KI0ZZBjiDqf4t/giphy.gif" width="600" height="400">
-
+<iframe src="https://giphy.com/embed/m9a16KI0ZZBjiDqf4t" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/m9a16KI0ZZBjiDqf4t">via GIPHY</a></p>
 Download the folder
 Open the terminal, split it 
 Cd into server, and in the other cd into client
