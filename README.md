@@ -9,13 +9,13 @@
 * [Languages used](#languages)
 * [Supported functionality](#functionality)
   + [Sign Up](#sign-up)
-  + [Log In/Log Out](#login)
-  + [Scroll Through Feed](#scr)
-  + [Like/Unlike a Post](#lik)
-  + [Create a post](#create)
-  + [Follow/Unfollow a User](#follw)
-  + [Add Profile Status](#profstats)
-  + [Change Profile/Background Picture](#profpic)
+  + [Log In or Out](#log-in-or-out)
+  + [Scroll Through Feed](#scroll-through-feed)
+  + [Like or Unlike a Post](#like-or-unlike-a-post)
+  + [Create a post](#create-a-post)
+  + [Follow or Unfollow a User](#follow-or-unfollow-a-user)
+  + [Add Profile Status](#add-profile-status)
+  + [Change Profile or Background Picture](#change-profile-or-background-picture)
 * [Installation](#installation)
   + [Install it using Docker and Docker Compose](#install-it-using-docker-and-docker-compose)
   + [Install it from scratch](#install-it-from-scratch)
@@ -53,11 +53,11 @@ LikeIt is a social media application that combines features from facebook, insta
 ## Functionality
 
 #### Sign Up
-#### Log In/Log Out
+#### Log In or Out
 #### Scroll Through Feed
-#### Like/Unlike a Post
+#### Like or Unlike a Post
 #### Create a post
-#### Follow/Unfollow a User
+#### Follow or Unfollow a User
 #### Add Profile Status
 #### Change Profile/Background Picture
 
