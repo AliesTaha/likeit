@@ -67,22 +67,20 @@ export const deletePost = async (req, res) => {
 export const likePost = async (req, res) => {
   const id = req.params.id;
   const { userId } = req.body;
-
   try {
     const post = await PostModel.findById(id);
-    if (!post.likes.includes(userId)) {
-      //Put the liker in the array of likes
+    if (post.likes.includes(userId)) {
+      await post.updateOne({ $pull: { likes: userId } });
+      res.status(200).json("Post disliked");
+    } else {
       await post.updateOne({ $push: { likes: userId } });
       res.status(200).json("Post liked");
-    } else {
-      //Remove the liker from the array of likes
-      await post.updateOne({ $pull: { likes: userId } });
-      res.status(200).json("Post Unliked");
     }
   } catch (error) {
     res.status(500).json(error);
   }
 };
+
 
 // Get Timeline Posts (show posts of followers)
 //Show posts of the person himself
