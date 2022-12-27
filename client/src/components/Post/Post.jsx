@@ -4,14 +4,17 @@ import Comment from '../../img/alicom9.png'
 import Share from '../../img/share1.png'
 import Heart from '../../img/heart10.webp'
 import NotLike from '../../img/heart4.webp'
+import { useSelector } from 'react-redux'
 
 
 const Post = ({data}) => {
+  const {user}=useSelector((state)=>state.authReducer.authData)
   return (
     <div className="Post">
-        <img src={data.img} alt="" />
+        <img src={data.image? process.env.REACT_APP_PUBLIC_FOLDER + data.image: ""} alt="" />
 
 
+ 
         <div className="postReact">
             <img src={data.liked? Heart : NotLike} style={{height:'90%', width:'5%'}} alt="" />
             <img  src={Comment} style={{height:'100%', width:'5%'}} alt="" />
