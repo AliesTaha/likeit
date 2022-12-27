@@ -8,7 +8,7 @@
 * [Technologies used](#technologies)
 * [Languages used](#languages)
 * [Supported functionality](#functionality)
-  + [Sign Up](#signp)
+  + [Sign Up](#sign-up)
   + [Log In/Log Out](#login)
   + [Scroll Through Feed](#scr)
   + [Like/Unlike a Post](#lik)
