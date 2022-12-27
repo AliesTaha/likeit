@@ -7,30 +7,17 @@
 
 <img src="https://media.giphy.com/media/wpVh4p82R9T7XxPsrd/giphy.gif" width="700" height="530">
 
-
 <img src="https://media.giphy.com/media/ZFBd9pxKvjqMK1Aqgk/giphy.gif" width="700" height="530">
 
+<img src="https://media.giphy.com/media/gdOOhBr4uvKKr2NjL7/giphy.gif" width="700" height="530">
 
-<img src="" width="700" height="530">
+<img src="https://media.giphy.com/media/fq8JaLSUalKxwwKbAt/giphy.gif" width="700" height="530">
 
-<img src="" width="700" height="530">
+<img src="https://media.giphy.com/media/74f209Zeae9b08qCag/giphy.gif" width="700" height="530">
 
-<img src="" width="700" height="530">
-<img src="" width="700" height="530">
+<img src="https://media.giphy.com/media/elSbb0iD5dSVcfh5Nz/giphy.gif" width="700" height="530">
 
-<img src="" width="700" height="530">
-<img src="" width="700" height="530">
-<img src="" width="700" height="530">
-<img src="" width="700" height="530">
-
-
-
-
-
-
-
-
-
+<img src="https://media.giphy.com/media/LdoUkF2twXT4gkoihl/giphy.gif" width="700" height="530">
 
 Download the folder
 Open the terminal, split it 
