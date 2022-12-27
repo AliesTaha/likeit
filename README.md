@@ -1,4 +1,4 @@
-# Getting Started with likeit App
+# Getting Started with LikeIt App
 
 
 <img src="https://media.giphy.com/media/m9a16KI0ZZBjiDqf4t/giphy.gif" width="700" height="530">
