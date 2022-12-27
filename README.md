@@ -11,8 +11,8 @@
   + [Sign Up](#sign-up)
   + [Log In or Out](#log-in-or-out)
   + [Scroll Through Feed](#scroll-through-feed)
-  + [Like or Unlike a Post](#like-or-unlike-a-post)
   + [Create a post](#create-a-post)
+  + [Like or Unlike a Post](#like-or-unlike-a-post)
   + [Follow or Unfollow a User](#follow-or-unfollow-a-user)
   + [Add Profile Status](#add-profile-status)
   + [Change Profile or Background Picture](#change-profile-or-background-picture)
@@ -54,15 +54,19 @@ LikeIt is a social media application that combines features from facebook, insta
 #### Sign Up
 #### Log In or Out
 #### Scroll Through Feed
-#### Like or Unlike a Post
+
 #### Create a post
+<img src="https://media.giphy.com/media/HPUz3qclIElvlhsMyf/giphy.gif" width="700" height="530">
+One can create a post that 
+
+#### Like or Unlike a Post
+
 #### Follow or Unfollow a User
 #### Add Profile Status
 #### Change Profile/Background Picture
 
 <img src="https://media.giphy.com/media/m9a16KI0ZZBjiDqf4t/giphy.gif" width="700" height="530">
 
-<img src="https://media.giphy.com/media/HPUz3qclIElvlhsMyf/giphy.gif" width="700" height="530">
 
 <img src="https://media.giphy.com/media/wpVh4p82R9T7XxPsrd/giphy.gif" width="700" height="530">
 
@@ -94,7 +98,7 @@ yarn add react-roucter-dom
 yarn start
 )
 ```
--Simultaneously open a new terminal, CD into the /server and run the following 
+- Simultaneously open a new terminal, CD into the /server and run the following 
 ```
 npm init
 npm i express
@@ -108,10 +112,10 @@ npm start
 ```
 
 
--The backend is connected to mongo db cloud
--The server runs in port 8080
--The client runs in port 3000
--Make sure these are free before downloading the project
+- The backend is connected to mongo db cloud
+- The server runs in port 8080
+- The client runs in port 3000
+- Make sure these are free before downloading the project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
