@@ -10,10 +10,10 @@
 * [Supported functionality](#functionality)
   + [Sign Up](#sign-up)
   + [Log In or Out](#log-in-or-out)
+  + [Follow or Unfollow a User](#follow-or-unfollow-a-user)
   + [Scroll Through Feed](#scroll-through-feed)
   + [Create a Post](#create-a-post)
   + [Like or Unlike a Post](#like-or-unlike-a-post)
-  + [Follow or Unfollow a User](#follow-or-unfollow-a-user)
   + [Add Profile Status](#add-profile-status)
   + [Change Profile or Background Picture](#change-profile-or-background-picture)
 * [Backend MongoDB](#backend-mongodb)
@@ -60,6 +60,10 @@ Signing up adds the new user to the database, and gives them the default profile
 Logging in simply checks if the user exists in the databse. If so, it checks if the passwords match. If so, then they can move on their own home page. 
 Logging out simply clears the memory of the browser such that the user has to log back in, either with the same credentials or a different one. 
 
+#### Follow or Unfollow a User
+Following a user and unfollowing them is similar to liking the post. Clicking the follow button allows the user to be added to the userBeingFollowed's array of followers, and adds the userBeingFollowed to the user's array of followings. Pressing the button again reverses this process. This is shown above. 
+![image](https://user-images.githubusercontent.com/103478551/209669125-72bd695a-6728-4076-acfb-eb4087ddff74.png)
+
 #### Scroll Through Feed
 <img src="https://media.giphy.com/media/ZFBd9pxKvjqMK1Aqgk/giphy.gif" width="700" height="530">
 The feed is created by appending all the posts of the users who are followed in the database, then ordering the posts using the timestamps so that the most recent post in on top. 
@@ -71,9 +75,6 @@ One can create a post that includes a text, an image, or both. The functionality
 #### Like or Unlike a Post
 <img src="https://media.giphy.com/media/wpVh4p82R9T7XxPsrd/giphy.gif" width="700" height="530">
 Liking a post is simply done through pressing the like button, which increments the post's number of likes by 1. Clicking the button again removes the like from the post
-
-#### Follow or Unfollow a User
-Following a user and unfollowing them is similar to liking the post. Clicking the follow button allows the user to be added to the userBeingFollowed's array of followers, and adds the userBeingFollowed to the user's array of followings. Pressing the button again reverses this process. This is shown above. 
 
 #### Add Profile Status
 <img src="https://media.giphy.com/media/fq8JaLSUalKxwwKbAt/giphy.gif" width="700" height="530">
