@@ -1,5 +1,23 @@
 # Getting Started with Create React App
 
+Download the folder
+Open the terminal, split it 
+Cd into server, and in the other cd into client
+For the server: download the following packages:
+
+then type npm start into the terminal
+
+for the client, download these packages: 
+
+then type yarn start into the terminal
+
+The backend is connected to mongo db cloud
+the server runs in port 8080
+the client runs in port 3000
+make sure these are free before downloading the project
+
+enjoy:)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
