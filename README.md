@@ -6,7 +6,13 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Back+End;)](https://git.io/typing-svg)
 <img src="https://user-images.githubusercontent.com/103478551/209657629-59e84dc9-49a7-4e32-95b9-e8a63a43c260.png">
 
-LikeIt is a social media application that combines features from facebook, instagram, and twitter. The web application deals with client and server side. 
+LikeIt is a social media application that combines features from facebook, instagram, and twitter. The web application deals with client and server side, and uses big stack approach. 
+
+*The front-end was created using:*
+<p align="center">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> 
+<img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"/>
+</p>
 
 is an automated phishing email analysis tool based on TheHive, Cortex and MISP. It is a web application written in Python 3 and based on Flask that automates the entire analysis process starting from the extraction of the observables from the header and the body of an email to the elaboration of a verdict which is final in most cases. In addition, it allows the analyst to intervene in the analysis process and obtain further details on the email being analyzed if necessary. In order to interact with TheHive and Cortex, it uses TheHive4py and Cortex4py, which are the Python API clients that allow using the REST APIs made available by TheHive and Cortex respectively.
 
