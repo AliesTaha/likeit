@@ -16,11 +16,8 @@
   + [Like or Unlike a Post](#like-or-unlike-a-post)
   + [Add Profile Status](#add-profile-status)
   + [Change Profile or Background Picture](#change-profile-or-background-picture)
-* [Backend MongoDB](#backend-mongodb)
+* [Backend](#backend)
 * [Installation](#installation)
-* [Configure the analyzers](#configure-the-analyzers)
-  + [Configure the levels of the analyzers](#configure-the-levels-of-the-analyzers)
-  + [Tested analyzers](#tested-analyzers)
 
 ## Overview
 
@@ -94,9 +91,9 @@ This is performed in the same way as above
 
 
 
-## Backend MongoDB
+## Backend
 <img src="https://user-images.githubusercontent.com/103478551/209657629-59e84dc9-49a7-4e32-95b9-e8a63a43c260.png">
-
+Useful functionalities implemented by connecting MongoDB to app, and Express server and Node.js used on the server side. Routing and the aggregation of timeline were also taken care of :sunglasses:	.
 
 ## Installation
 - Download the files, then CD into the /client and run the following commands
