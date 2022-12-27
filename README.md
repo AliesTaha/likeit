@@ -1,7 +1,8 @@
 # LikeIt
 
-<h3>Front End</h3>
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Front+End;)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=I'm+Ali+Taha;)](https://git.io/typing-svg)
+
+
 <img src="https://user-images.githubusercontent.com/103478551/209656711-f86178bf-213e-4c8b-b6b4-f7f06050069d.png">
 
 <h3>Back End</h3>
