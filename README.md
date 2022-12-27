@@ -52,14 +52,14 @@ LikeIt is a social media application that combines features from facebook, insta
 
 ## Functionality
 
-## signp
-## login
-## scr
-## lik
-## create
-## follw
-## profstats
-## profpic
+## Sign Up
+## Log In/Log Out
+## Scroll Through Feed
+## Like/Unlike a Post
+## Create a post
+## Follow/Unfollow a User
+## Add Profile Status
+## Change Profile/Background Picture
 
 <img src="https://media.giphy.com/media/m9a16KI0ZZBjiDqf4t/giphy.gif" width="700" height="530">
 
