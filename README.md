@@ -26,8 +26,7 @@ LikeIt is a social media application that combines features from facebook, insta
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> 
 <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"/>
 </p>
-<br>
-<a href="#top" class="btn">Back to table of contents</a>
+
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Back+End;)](https://git.io/typing-svg)
 <p align="center">
